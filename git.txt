@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+main() 
+{
+	float a;
+	cout << "Programa que me permita dividir un numero " << endl; 
+	cout << "Ingrese un numero decimal " << endl;
+	cin >> a;
+	if (a/100)
+	cout << "El resultado es " << a << endl;
+}

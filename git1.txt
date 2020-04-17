@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+main() 
+{
+	int temp;
+	cout << " Ingreso a la camara detectora del segundo sintoma del covid-19" << endl; 
+	cout << "Por favor ingrese su temperatura " << endl;
+	cin >> temp;
+	if (temp > 37)
+	{
+		cout << "Necesitas chequeo de un medico, pues tienes uno de los sintomas del virus " << endl;
+	}
+	else
+	{
+		cout << "Cuidate " << endl;
+	}
+}
